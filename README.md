@@ -7,6 +7,7 @@ https://xintu.shinyapps.io/MUBI_App_v2_2/
 https://github.com/Ashin200/MUBI-Shiny-App
 
 3.	Technical description
+
   3.1 Tools
 Shiny provides a powerful web framework and an open-source R package to build web apps. It helps turn your analyses into an interactive web application. It doesn’t require any knowledge like HTML, CSS, or JavaScript. Shiny combines the analytical abilities of R with the display abilities of the web and ships with a very powerful and flexible layout engine. Shiny app has three components. They are the front end: a user-interface object (UI) that controls the layout and appearance of the app, the back end: a server function (server) that contains the computer needs the instructions to build the app, and a call to the Shiny App function that creates Shiny app objects from an explicit UI/server pair. In this MUBI web app, the backend is the RSQLite database, and the frontend is the Shiny web app. The web is connected to the backend RSQLite database through the Shiny server. Users can access the frontend web and input values. Shiny app will process input values to produce the output results by querying from the backend database. 
 
